@@ -10,7 +10,14 @@ class ArithmeticOperators {
 
     public static void main(String[] args) {
 
-        // write your code below
+        int a = 100, b = 30;
+
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(a / b);
+        System.out.println(a % b);
+
 
     }
 

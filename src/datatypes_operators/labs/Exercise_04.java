@@ -1,5 +1,7 @@
 package datatypes_operators.labs;
 
+import java.sql.SQLOutput;
+
 /**
  * Please demonstrate the use of all relational operators below. These include:
  *
@@ -17,7 +19,34 @@ class RelationalOperators {
             System.out.println("a is less than b");
         }
 
-        // write your code below
+        a = 2;
+        b = 5;
+
+        if (a <= b){
+            System.out.println("less than or equal to");
+        }
+
+        a = 4;
+        b = 3;
+
+        if (a > b){
+            System.out.println("a is greater than b");
+        }
+
+        a = 6;
+        b = 4;
+
+        if (a >= b){
+            System.out.println("greater than or equal to");
+        }
+
+        a = 7;
+        b = 7;
+
+        if (a == b){
+            System.out.println("a equals b");
+        }
+
 
     }
 

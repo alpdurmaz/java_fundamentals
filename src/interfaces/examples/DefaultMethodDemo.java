@@ -1,6 +1,6 @@
 package interfaces.examples;
 
-import packages.package_02.MyIFImp;
+
 
 // Use the default method.
 class DefaultMethodDemo {
